@@ -1,9 +1,9 @@
 public class Ray{
-    public Vector origin, direction;
+    public Vector O, D;
     public double t;
     public Ray(Vector origin, Vector direction){
-        this.origin = origin;
-        this.direction = direction;
+        O = origin;
+        D = direction;
         t = Double.MAX_VALUE;
     }
 }
